@@ -1,0 +1,17 @@
+{
+    "name": "blacktrue/cfdi-reader",
+    "description": "Libreria para leer cfdi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cesar aguilera",
+            "email": "cesargnu29@gmail.com"
+        }
+    ],
+    "autoload":{
+    	"psr-4":{
+    		"Blacktrue\\" : "src"
+    	}
+    }
+}
