@@ -77,8 +77,8 @@ class Cfdi{
 		  }
 		}
 
-		if(!is_null($key) && isset($emisor[$key])){
-			return $emisor[$key];
+		if(!is_null($key)){
+			return isset($emisor[$key]) ? $emisor[$key] : null;
 		}
 
 		return $emisor;
@@ -104,8 +104,8 @@ class Cfdi{
 		  }
 		}
 
-		if(!is_null($key) && isset($receptor[$key])){
-			return $receptor[$key];
+		if(!is_null($key)){
+			return isset($receptor[$key]) ? $receptor[$key] : null;
 		}
 
 		return $receptor;
