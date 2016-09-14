@@ -5,6 +5,7 @@ namespace Blacktrue\Reader;
 use Blacktrue\Exceptions\CfdiReaderException;
 use DOMDocument;
 use DOMXpath;
+use XSLTProcessor;
 
 /**
  * Class Cfdi
@@ -12,6 +13,7 @@ use DOMXpath;
  */
 class Cfdi{
 
+	const URL_XSLT_CFDI32 = 'http://www.sat.gob.mx/cfd/3/cadenaoriginal_3_2/cadenaoriginal_3_2.xslt';
 	const NAMESPACE_CFDI = 'http://www.sat.gob.mx/cfd/3';
 	const NAMESPACE_IMPLOCAL = 'http://www.sat.gob.mx/implocal';
 	const TAG_EMISOR = 'Emisor';
@@ -43,6 +45,11 @@ class Cfdi{
      * @var string
      */
 	protected static $prefix = '//@';
+
+	public function __construct()
+	{
+		libxml_use_internal_errors(true);
+	}
 
     /**
      * @param string $xml
@@ -204,6 +211,20 @@ class Cfdi{
 		}
 
 		return $retencionesLocal;
+	}
+
+	/**
+	* @return string
+	*/
+	public function getCadenaOriginal() : string
+	{		
+		$xsl = new DOMDocument;
+		$xsl->load(self::URL_XSLT_CFDI32);
+
+		$proc = new XSLTProcessor;
+		$proc->importStyleSheet($xsl);
+
+		return $proc->transformToXML($this->dom);
 	}
 
     /**
