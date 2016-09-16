@@ -213,6 +213,62 @@ class Cfdi{
 		return $retencionesLocal;
 	}
 
+    /**
+     * @return float
+     */
+	public function getTotalImpuestosTrasladados() : float
+	{
+		$totalImpuestosTrasladados = 0;
+		$impuestos = $this->getTraslados();
+		foreach($impuestos as $impuesto){
+			$totalImpuestosTrasladados += (float)$impuesto['importe'];
+		}
+
+		return $totalImpuestosTrasladados;
+	}
+
+    /**
+     * @return float
+     */
+	public function getTotalImpuestosRetenidos() : float
+	{
+		$totalImpuestosRetenidos = 0;
+		$impuestos = $this->getRetenciones();
+		foreach($impuestos as $impuesto){
+			$totalImpuestosRetenidos += (float)$impuesto['importe'];
+		}
+
+		return $totalImpuestosRetenidos;
+	}
+
+    /**
+     * @return float
+     */
+    public function getTotalImpuestosTrasladadosLocales() : float
+    {
+        $totalImpuestosTrasladadosLocales = 0;
+        $impuestos = $this->getTrasladosLocal();
+        foreach($impuestos as $impuesto){
+            $totalImpuestosTrasladadosLocales += (float)$impuesto['Importe'];
+        }
+
+        return $totalImpuestosTrasladadosLocales;
+    }
+
+    /**
+     * @return float
+     */
+    public function getTotalImpuestosRetencionesLocales() : float
+    {
+        $totalImpuestosRetencionesLocales = 0;
+        $impuestos = $this->getTrasladosLocal();
+        foreach($impuestos as $impuesto){
+            $totalImpuestosRetencionesLocales += (float)$impuesto['Importe'];
+        }
+
+        return $totalImpuestosRetencionesLocales;
+    }
+
 	/**
 	* @return string
 	*/
