@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante total="1160.00" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" LugarExpedicion="MONTERREY" TipoCambio="1.0000" fecha="2013-12-05T00:07:30" sello="lblp7KHhyro0Mf55SbU3jCLIT0W2jZkJB2xS4kTFJHa4PFDgLfU2jwbckcfQlEi5+OWJ2+5uzBEwQ+DKpkCth43cERnl82mAimmk6eil+L3AKtAbPq4p/1MeMSJp78o5YqO2GMhxXKwt5wy5PUzAWWuH1g/uxnLqJyU8zdU/sxg=" Moneda="MXN" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" metodoDePago="EFECTIVO" noCertificado="20001000000100005867" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3                                   http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd                                   http://www.sat.gob.mx/TimbreFiscalDigital                                   http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" certificado="MIIEdDCCA1ygAwIBAgIUMjAwMDEwMDAwMDAxMDAwMDU4NjcwDQYJKoZIhvcNAQEFBQAwggFvMRgwFgYDVQQDDA9BLkMuIGRlIHBydWViYXMxLzAtBgNVBAoMJlNlcnZpY2lvIGRlIEFkbWluaXN0cmFjacOzbiBUcmlidXRhcmlhMTgwNgYDVQQLDC9BZG1pbmlzdHJhY2nDs24gZGUgU2VndXJpZGFkIGRlIGxhIEluZm9ybWFjacOzbjEpMCcGCSqGSIb3DQEJARYaYXNpc25ldEBwcnVlYmFzLnNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEjAQBgNVBAcMCUNveW9hY8OhbjEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTIwMAYJKoZIhvcNAQkCDCNSZXNwb25zYWJsZTogSMOpY3RvciBPcm5lbGFzIEFyY2lnYTAeFw0xMjA3MjcxNzAyMDBaFw0xNjA3MjcxNzAyMDBaMIHbMSkwJwYDVQQDEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEKRMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxKTAnBgNVBAoTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSUwIwYDVQQtExxBQUEwMTAxMDFBQUEgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFVuaWRhZCAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2TTQSPONBOVxpXv9wLYo8jezBrb34i/tLx8jGdtyy27BcesOav2c1NS/Gdv10u9SkWtwdy34uRAVe7H0a3VMRLHAkvp2qMCHaZc4T8k47Jtb9wrOEh/XFS8LgT4y5OQYo6civfXXdlvxWU/gdM/e6I2lg6FGorP8H4GPAJ/qCNwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEATxMecTpMbdhSHo6KVUg4QVF4Op2IBhiMaOrtrXBdJgzGotUFcJgdBCMjtTZXSlq1S4DG1jr8p4NzQlzxsdTxaB8nSKJ4KEMgIT7E62xRUj15jI49qFz7f2uMttZLNThipunsN/NF1XtvESMTDwQFvas/Ugig6qwEfSZc0MDxMpKLEkEePmQwtZD+zXFSMVa6hmOu4M+FzGiRXbj4YJXn9Myjd8xbL/c+9UIcrYoZskxDvMxc6/6M3rNNDY3OFhBK+V/sPMzWWGt8S1yjmtPfXgFs1t65AZ2hcTwTAuHrKwDatJ1ZPfa482ZBROAAX1waz7WwXp0gso7sDCm2/yUVww==" version="3.2" serie="A" descuento="0.00" folio="100" subTotal="1000.00" tipoDeComprobante="ingreso" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" formaDePago="PAGO EN UNA SOLA EXHIBICION">
+    <cfdi:Emisor nombre="ACCEM SERVICIOS EMPRESARIALES SC" rfc="AAA010101AAA">
+        <cfdi:DomicilioFiscal codigoPostal="01234" localidad="MONTERREY" noExterior="100" estado="NUEVO LEON" pais="MEXICO" municipio="MONTERREY" colonia="CENTRO" calle="JUAREZ"/>
+        <cfdi:ExpedidoEn codigoPostal="64610" localidad="MONTERREY" noExterior="240" estado="NUEVO LEON" pais="MEXICO" municipio="MONTERREY" colonia="LAS CUMBRES 3 SECTOR" calle="HIDALGO"/>
+        <cfdi:RegimenFiscal Regimen="MI REGIMEN"/>
+    </cfdi:Emisor>
+    <cfdi:Receptor nombre="MIGUEL ANGEL SOSA HERNANDEZ" rfc="SOHM7509289MA">
+        <cfdi:Domicilio codigoPostal="23010" localidad="CIUDAD DE MÉXICO" noExterior="1024" estado="DISTRITO FEDERAL" pais="MEXICO" noInterior="B" municipio="ALVARO OBREGON" colonia="SAN ANGEL" calle="PERIFERICO"/>
+    </cfdi:Receptor>
+    <cfdi:Conceptos>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 1" unidad="PIEZA" noIdentificacion="COD1"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 2" unidad="PIEZA" noIdentificacion="COD2"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 3" unidad="PIEZA" noIdentificacion="COD3"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 4" unidad="PIEZA" noIdentificacion="COD4"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 5" unidad="PIEZA" noIdentificacion="COD5"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 6" unidad="PIEZA" noIdentificacion="COD6"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 7" unidad="PIEZA" noIdentificacion="COD7"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 8" unidad="PIEZA" noIdentificacion="COD8"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 9" unidad="PIEZA" noIdentificacion="COD9"/>
+        <cfdi:Concepto importe="100.00" valorUnitario="100.00" cantidad="1" descripcion="PRODUCTO PRUEBA 10" unidad="PIEZA" noIdentificacion="COD10"/>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos totalImpuestosTrasladados="160.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado importe="160.00" tasa="16.00" impuesto="IVA"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital version="1.0" UUID="28BB36E8-A897-4EB9-A418-138E528352B9" FechaTimbrado="2013-12-05T01:01:51" selloCFD="lblp7KHhyro0Mf55SbU3jCLIT0W2jZkJB2xS4kTFJHa4PFDgLfU2jwbckcfQlEi5+OWJ2+5uzBEwQ+DKpkCth43cERnl82mAimmk6eil+L3AKtAbPq4p/1MeMSJp78o5YqO2GMhxXKwt5wy5PUzAWWuH1g/uxnLqJyU8zdU/sxg=" noCertificadoSAT="20001000000100005761" selloSAT="fq7qJlYY1Mf1hGs8uIKV2WXjXNkV9Aad2eDW2v+jX2B855EWPkSmD7oNZRCQ+/w8Dw1VyluTrNrQYkxUUWoWjlYFWfhmLMfGl5WbnqCtBHIaL5DGf5d0sVUi5wrFlb81heUxWCf+m0AOIWq3FsovWTKN1n+57Pk2qCenECxWpgE="/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
